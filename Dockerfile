@@ -1,5 +1,5 @@
 FROM base/archlinux
-ENV Site1=none Site2=none  PASS=none
+ENV Site1=none Site2=none  PASS=none CMD=none
 RUN pacman -Syu --noconfirm && pacman -S openbsd-netcat bash unzip nano tor python2-gevent python2-msgpack python2-pyopenssl --noconfirm
 ADD inits /inits
 RUN chmod +x /inits
