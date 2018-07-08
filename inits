@@ -44,15 +44,27 @@ python2 zeronet.py  --tor always siteDownload $Site2
 
 killall python2
 
+sleep 5
+
 killall python2
 
 killall tor
 
+sleep 5
+
 killall tor
+
+
+
+
 
 cd ..
 
 tor -f confrc  &
+
+sleep 20
+
+cd Zero*
 
 
 python2 zeronet.py  --tor always --ui_ip "*"  --ui_port 8080 --ui_password $PASS
