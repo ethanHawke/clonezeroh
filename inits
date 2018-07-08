@@ -46,5 +46,13 @@ killall python2
 
 killall python2
 
+killall tor
+
+killall tor
+
+cd ..
+
+tor -f confrc  &
+
 
 python2 zeronet.py  --tor always --ui_ip "*"  --ui_port 8080 --ui_password $PASS
