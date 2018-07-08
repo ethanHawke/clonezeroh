@@ -8,6 +8,11 @@
        "value": "none"
      },
     
+    "CMD": {
+       "description": "输入CMD",
+       "value": "none"
+     },
+    
     "Site1": {
        "description": "输入Site1",
        "value": "none"
